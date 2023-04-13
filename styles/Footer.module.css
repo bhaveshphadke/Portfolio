@@ -1,0 +1,41 @@
+.footerContainer {
+  background-color: #ff3e5f;
+  height: 200px;
+}
+
+.heading {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  color: white;
+  padding-top: 10px;
+}
+
+.contactList {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin: auto;
+}
+.githubIcon,
+.linkedinIcon,
+.emailIcon,
+.callIcon {
+  font-size: 4rem;
+  margin: 10px 20px;
+  border-radius: 10px;
+}
+.linkedinIcon {
+  color: #0a66c2;
+  background-color: white;
+}
+
+
+.githubIcon{
+    color: #24292f;
+    background-color: white;
+}
+
+.emailIcon{
+    color: white;
+}

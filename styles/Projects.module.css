@@ -1,0 +1,27 @@
+.projectList {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+.project{
+    border: 0.1px solid #ff3e5f;
+    padding: 25px;
+    border-radius: 5px;
+    width: 80%;
+    margin: 20px 0; 
+}
+.project > h2{ 
+    margin: 10px 0;  
+    font-size: 2rem;
+    color: #fd6982;
+}
+.project > ul > li{ 
+  font-size: 1.2rem;
+  line-height: 2rem;
+  word-wrap: break-word;
+}
+.project > ul > li> a{ 
+  color: #fd6982;
+  text-decoration: none;
+}

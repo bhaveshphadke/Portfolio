@@ -1,0 +1,90 @@
+.navbar {
+  display: flex;
+  padding: 20px;
+  transition: all 0.7s;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  background-color: white;
+}
+
+.hideNavbar {
+  position: fixed;
+  transition: all 0.7s;
+  transform: translateY(-1175px);
+}
+
+.mainHead {
+  font-size: 2rem;
+  color: #fd6982;
+}
+.mainHead,
+.links {
+  margin: 0 10px;
+}
+
+.links > a {
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: black;
+  transition: all 0.2s;
+  padding: 10px;
+}
+
+.mainHead > a:hover,
+.links > a:hover {
+  color: #fd6982;
+}
+
+.hamMenu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 36px;
+  right: 10px;
+}
+
+.hamBars {
+  width: 80px;
+  height: 2px;
+  margin: 10px 0;
+  background-color: #fd6982;
+  transition: all 0.7s;
+}
+
+.firstHamBar {
+  margin: 0 !important;
+  transform: rotateZ(45deg);
+  transition: all 0.7s;
+}
+.secondHamBar {
+  display: none;
+  transition: all 0.7s;
+}
+.thirdHamBar {
+  margin: 0px 0px !important;
+  transform: rotateZ(-45deg);
+  transition: all 0.7s;
+}
+
+@media screen and (max-width: 700px) {
+  .mainContainer {
+    margin-top: 100px;
+    margin-bottom: 10px;
+  }
+  .navbar {
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 100px;
+  }
+
+  .mainHead,
+  .links {
+    margin: 10px 10px;
+  }
+}

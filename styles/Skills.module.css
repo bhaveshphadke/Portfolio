@@ -1,0 +1,51 @@
+.skillsContainer {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 70%;
+  min-height: calc(100vh - 100px);
+}
+.skillsContainer > div {
+  margin: 10px 0;
+  padding: 10px 5px;
+  border-radius: 10px;
+  border: 0.1px solid #ff3e5f;
+  color: aliceblue;
+}
+
+.javascript {
+  background: linear-gradient(to right, #ff3e5f 80%, white 20%);
+}
+.html {
+  background: linear-gradient(to right, #ff3e5f 75%, white 25%);
+}
+.css {
+  background: linear-gradient(to right, #ff3e5f 70%, white 30%);
+}
+.reactjs {
+  background: linear-gradient(to right, #ff3e5f 80%, white 20%);
+}
+.nodejs {
+  background: linear-gradient(to right, #ff3e5f 85%, white 15%);
+}
+.expressjs {
+  background: linear-gradient(to right, #ff3e5f 85%, white 15%);
+}
+.mongodb {
+  background: linear-gradient(to right, #ff3e5f 65%, white 35%);
+}
+.bootstrap {
+  background: linear-gradient(to right, #ff3e5f 60%, white 40%);
+}
+.nextjs {
+  background: linear-gradient(to right, #ff3e5f 20%, white 20%);
+}
+@media screen and (max-width: 600px) {
+  .mainContainer {
+    margin-top: 100px;
+    margin-bottom: 10px;
+  }
+  .skillsContainer {
+    width: 90%;
+  }
+}
